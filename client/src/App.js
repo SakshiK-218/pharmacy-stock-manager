@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://pharmacy-stock-manager.onrender.com/api';
 
 function App() {
   const [items, setItems] = useState([]);
