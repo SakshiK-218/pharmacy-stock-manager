@@ -1,0 +1,87 @@
+.App {
+  font-family: system-ui, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.layout {
+  display: flex;
+  gap: 2rem;
+}
+
+.items-panel {
+  min-width: 200px;
+}
+
+.item-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 0.6rem 1rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.item-btn.active {
+  background: #222;
+  color: white;
+}
+
+.tag {
+  font-size: 0.75rem;
+  opacity: 0.6;
+  margin-left: 0.5rem;
+}
+
+.detail-panel {
+  flex: 1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+input[type="number"] {
+  width: 60px;
+  padding: 0.4rem;
+}
+
+.race-btn {
+  background: #b91c1c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.msg {
+  padding: 1rem;
+  border-radius: 6px;
+  white-space: pre-wrap;
+  font-family: monospace;
+  font-size: 0.85rem;
+}
+
+.msg.success { background: #d1fae5; }
+.msg.error { background: #fee2e2; }
+.msg.race-result { background: #fef3c7; }
